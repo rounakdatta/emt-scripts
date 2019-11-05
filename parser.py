@@ -12,7 +12,7 @@ def onlineConverter(ticketName):
 
 	import convertapi
 	
-	convertapi.api_secret = 'sWeEtApIkEy'
+	convertapi.api_secret = 'sBM1y27i8uNCo2AF'
 	convertapi.convert('txt', {
 	    'File': './data/pdf/' + ticketName
 	}, from_format = 'pdf').save_files('./data/txt/')
